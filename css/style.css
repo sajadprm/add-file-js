@@ -1,0 +1,107 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.wrapper
+{
+    width: 960px;
+    margin: 0 auto;
+}
+#title
+{
+    margin: 10px;
+    padding:10px
+}
+.cartWrapper
+{
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 8px;
+}
+#addProduct
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#formWrapper
+{
+    height: 40px;
+    line-height: 40px;
+    margin-left: 10px;
+}
+#formWrapper input[type="text"],#formWrapper input[type="submit"],
+#searchWrapper input,#searchWrapper select,#eidt-product input[type="text"]
+{
+    outline: none;
+    border: 0;
+    padding: 10px;
+}
+#formWrapper input[type="submit"]
+{
+   background-color: #40baaa;
+   color:#fff
+}
+#addProduct,#searchWrapper
+{
+    border-bottom: 1px solid #e2e2e2;
+    padding: 10px;
+}
+.cartWrapper label.title
+{
+    background-color: rgb(61, 57, 57);
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    
+}
+#searchWrapper
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#searchWrapper .item
+{
+    margin-left: 10px;
+}
+#products
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap
+}
+#products div
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-right: 1px solid #e2e2e2;
+   align-items: center;
+}
+#products div .item
+{
+    margin-left: 5px;
+}
+#products button,#eidt-product button
+{
+    background-color: #970909;
+    color: #fff;
+    padding: 5px;
+    border:0;
+    border-radius: 8px;
+}
+#eidt-product button
+{
+    padding: 10px;
+}
+#products div a
+{
+    background-color: #3b50c4;
+    color: #ffff;
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 5px;
+}
